@@ -1,16 +1,36 @@
-# React + Vite
+# Actividad: React, Vite y Git
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción
+Proyecto realizado con React y Vite para practicar el uso de dependencias, componentes, ramas y merges con Git.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Capturas de pantalla
 
-## React Compiler
+### 1. React Confetti
+*(Pegar aquí la captura de la rama `react-confetti`)*
+![React Confetti](images/paso1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Canvas Confetti
+*(Pegar aquí la captura de la rama `canvas-confetti`)*
+![Canvas Confetti](images/paso2.png)
 
-## Expanding the Oxlint configuration
+### 3. Escena 3D
+*(Pegar aquí la captura de la escena 3D de la rama `three`)*
+![Escena 3D](images/paso2.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Pregunta
+
+**Si la carpeta `node_modules/` está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?**
+
+Sí. Aunque la carpeta `node_modules` esté excluida del repositorio (mediante el archivo `.gitignore`), al eliminar una dependencia se modifican los archivos `package.json` y `package-lock.json`. 
+
+Estos archivos sí están incluidos en el repositorio, por lo que Git detecta los cambios realizados y permite guardarlos mediante un commit.
+
+---
+
+## Web desplegada
+
+* **Enlace:** [Ver sitio desplegado en GitHub Pages](https://tu-usuario.github.io/tu-repositorio/)
