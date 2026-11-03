@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+
+node_modules
+dist
+dist-ssr
+*.local
+# La carpeta node_modules tienes que estar en .gitignore ya que es una carpeta muy pesada y que es una carpeta que se crea automaticamente al utilizar el comando npm install,
+# es decir al inicializar react o cualquier framework de javascript. 
+
+
+dist 
+# La carpeta dist tiene que estar en el .gitignore ya que contiene el código de producción en el cual se crea cuando ejecutas el comando npm run build
+# no tiene  sentido subir esta carpeta ya que cada vez que compilas el proyecto esta carpeta cambia su código.
+
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
