@@ -33,4 +33,4 @@ Estos archivos sí están incluidos en el repositorio, por lo que Git detecta lo
 
 ## Web desplegada
 
-* **Enlace:** [Ver sitio desplegado en GitHub Pages](https://tu-usuario.github.io/tu-repositorio/)
+* **Enlace:** [Ver sitio desplegado en GitHub Pages](https://alex-g-lab.github.io/Actividad-npm-react-git/)
