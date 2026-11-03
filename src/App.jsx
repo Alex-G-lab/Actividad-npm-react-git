@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import confetti from 'canvas-confetti'
+import PlanetScene from './PlanetScene'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
 >
   ¡Lanzar confeti!
 </button>
+      <PlanetScene />
 
       <section id="center">
         <div className="hero">
